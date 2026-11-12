@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+.container {
+    background: #ffffff;
+    color: #222;
+
+    width: 90%;
+    max-width: 420px;
+
+    padding: 30px;
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    color: #e63946;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    color: #777;
+    margin-bottom: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    padding: 14px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #e63946;
+}
+
+button {
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+
+    background: #e63946;
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #b92332;
+    transform: scale(1.03);
+}
+
+#msg {
+    margin-top: 15px;
+    color: #e63946;
+    font-weight: bold;
+}
+
+#resultado {
+    display: none;
+    margin-top: 20px;
+}
+
+#nomePokemon {
+    color: #222;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#imgPoke {
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+}
+
+.informacoes {
+    background: #f3f3f3;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.informacoes p {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+}
+
+.informacoes span {
+    color: #e63946;
+    font-weight: bold;
+}
+
+.btn-som {
+    margin-top: 15px;
+    background: #4a90e2;
+}
+
+.btn-som:hover {
+    background: #357abd;
+}
